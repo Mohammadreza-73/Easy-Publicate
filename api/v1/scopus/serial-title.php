@@ -1,9 +1,11 @@
 <?php
 
-require_once "../../vendor/autoload.php";
+use Samoon\App\Helpers\Config;
+
+require_once realpath("../../../vendor/autoload.php");
 
 $params = http_build_query([
-    'issn' => '08960267',
+    'issn' => Config::get('scopus', 'issn')
 ]);
 $url = 'https://api.elsevier.com/content/serial/title?' . $params;
 
@@ -14,7 +16,7 @@ $options = [
     CURLOPT_CONNECTTIMEOUT => false,
     CURLOPT_TIMEOUT        => false,
     CURLOPT_USERAGENT      => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1)',
-    CURLOPT_HTTPHEADER     => ['X-ELS-APIKey: 6a0c3117c305fed4822dfec123bfd37f']
+    CURLOPT_HTTPHEADER     => ['X-ELS-APIKey: ' . Config::get('scopus', 'api_key')]
 ];
 
 $ch = curl_init();

@@ -1,0 +1,19 @@
+{
+    "name": "mohammadreza/scopus",
+    "description": "Get Data from Scholar and Scopus",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Mohammadreza-73",
+            "email": "mohammadreza.rahimi93@yahoo.com"
+        }
+    ],
+    "require": {
+        "fabpot/goutte": "^4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Samoon\\App\\": "App"
+        }
+    }
+}

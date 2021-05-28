@@ -4,7 +4,7 @@ use Samoon\App\Helpers\Config;
 use Samoon\App\Helpers\Response;
 use Samoon\App\Services\ScholarService;
 
-require_once "../../vendor/autoload.php";
+require_once realpath("../../../vendor/autoload.php");
 
 // $url = 'https://scholar.google.com/citations?user=FiWMjWkAAAAJ';
 // $url = 'https://scholar.google.com/citations?user=vJjq9LwAAAAJ';

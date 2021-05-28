@@ -19,6 +19,11 @@ class ScholarService
         $this->crawler = $this->client->request('GET', $url); 
     }
 
+    /**
+     * Get User Data From Profile
+     *
+     * @return array Data
+     */
     public function getUserData(): array
     {
         $this->scholarData['user_name']       = $this->crawler->filter('#gsc_prf_in')->text();
@@ -28,6 +33,11 @@ class ScholarService
         return $this->scholarData;
     }
 
+    /**
+     * Get Citation Data From Profile
+     *
+     * @return array Data
+     */
     public function getCitationsData(): array
     {
         $this->scholarData['citatoins']                = $this->crawler->filter('table#gsc_rsb_st tr:nth-child(1) td')->eq(1)->text();
@@ -38,6 +48,11 @@ class ScholarService
         return $this->scholarData;
     }
 
+    /**
+     * Get Publication Data From Profile Profile
+     *
+     * @return array Data
+     */
     public function getPublicationsData(): array
     {
         $this->crawler->filter('table#gsc_a_t tbody#gsc_a_b .gsc_a_tr')->each(function ($node) {
@@ -59,6 +74,11 @@ class ScholarService
         return $this->scholarData;
     }
 
+    /**
+     * Get Citation per Year From Profile
+     *
+     * @return array Data
+     */
     public function getCitationsPerYearData(): array
     {
         $this->crawler->filter('div.gsc_md_hist_b > span.gsc_g_t')->each(function ($node) {
@@ -85,6 +105,11 @@ class ScholarService
         return $this->scholarData;
     }
 
+    /**
+     * Get All Data From Profile
+     *
+     * @return array Data
+     */
     public function getData(): array
     {
         $this->scholarData = array_merge(

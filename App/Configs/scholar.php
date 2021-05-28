@@ -2,9 +2,9 @@
 
 return [
     'methods' => [
-        'getUserData'               => false,
-        'getCitationsData'          => false,
-        'getPublicationsData'       => false,
-        'getCitationsPerYearData'   => false
+        'getUserData'             => false,
+        'getCitationsData'        => false,
+        'getPublicationsData'     => false,
+        'getCitationsPerYearData' => false
     ]
 ];

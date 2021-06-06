@@ -6,8 +6,6 @@ use Samoon\App\Services\ScholarService;
 
 require_once realpath("../../../vendor/autoload.php");
 
-// $url = 'https://scholar.google.com/citations?user=FiWMjWkAAAAJ';
-// $url = 'https://scholar.google.com/citations?user=vJjq9LwAAAAJ';
 $userId = $_GET['user'] ?? null;
 $url = 'https://scholar.google.com/citations?user=' . $userId;
 

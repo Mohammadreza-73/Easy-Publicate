@@ -163,6 +163,7 @@ Query Parameters   | issn  ( like: 00313203 )
 
 *for more information about this api: [Scopus Serial Title API](https://dev.elsevier.com/documentation/SerialTitleAPI.wadl)*
 
+Response:
 ```json
 {
     "serial-metadata-response": {

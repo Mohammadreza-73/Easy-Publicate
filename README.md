@@ -5,6 +5,11 @@ https://scholar.google.com/citations
 https://scopus.com/
 ```
 
+## Install Package
+```
+composer require dev.mohammadreza/easy-publicate
+```
+
 ## Scholar API
 Endpoint           | **GET** https://scholar.google.com/citations
 ------------------ | --------------------------------------------

@@ -250,3 +250,6 @@ Response:
     }
 }
 ```
+
+## License
+The Easy Publicate is open-sourced software licensed under the [MIT License](https://github.com/Mohammadreza-73/Easy-Publicate/blob/master/LICENSE).

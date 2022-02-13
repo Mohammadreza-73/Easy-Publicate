@@ -7,7 +7,7 @@ https://scopus.com/
 
 ## Install Package
 ```
-composer require dev.mohammadreza/easy-publicate
+composer require m.rahimi/easy-publicate
 ```
 
 ## Scholar API

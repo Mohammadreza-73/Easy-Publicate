@@ -11,7 +11,7 @@ composer require dev.mohammadreza/easy-publicate
 ```
 
 ## Scholar API
-Endpoint           | **GET** https://scholar.google.com/citations
+Endpoint           | **GET** Easy-Publicate/api/v1/scholar
 ------------------ | --------------------------------------------
 Query Parameters   | user  ( like: vth4SIcAAAAJ )
 

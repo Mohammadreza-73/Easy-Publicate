@@ -1,6 +1,6 @@
 <?php
 
-namespace Samoon\App\Helpers;
+namespace App\Helpers;
 
 class Response
 {

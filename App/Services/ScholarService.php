@@ -1,6 +1,6 @@
 <?php
 
-namespace Samoon\App\Services;
+namespace App\Services;
 
 use Goutte\Client;
 use InvalidArgumentException;

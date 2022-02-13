@@ -1,8 +1,8 @@
 <?php
 
-use Samoon\App\Helpers\Config;
-use Samoon\App\Helpers\Response;
-use Samoon\App\Services\ScholarService;
+use App\Helpers\Config;
+use App\Helpers\Response;
+use App\Services\ScholarService;
 
 require_once realpath("../../../vendor/autoload.php");
 

@@ -1,6 +1,6 @@
 <?php
 
-use Samoon\App\Helpers\Config;
+use App\Helpers\Config;
 
 require_once realpath("../../../vendor/autoload.php");
 

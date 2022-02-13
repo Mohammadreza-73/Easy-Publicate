@@ -8,7 +8,8 @@
     "authors": [
         {
             "name": "Mohammadreza-73",
-            "email": "mohammadreza.rahimi93@yahoo.com"
+            "email": "mohammadreza.rahimi93@yahoo.com",
+            "role": "developer"
         }
     ],
     "require": {
@@ -17,7 +18,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Samoon\\App\\": "App"
+            "App\\": "App"
         }
     }
 }

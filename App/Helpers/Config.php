@@ -1,8 +1,8 @@
 <?php
 
-namespace Samoon\App\Helpers;
+namespace App\Helpers;
 
-use Samoon\App\Exceptions\ConfigFileNotExistsException;
+use App\Exceptions\ConfigFileNotExistsException;
 
 class Config
 {

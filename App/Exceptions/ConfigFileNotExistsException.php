@@ -1,6 +1,6 @@
 <?php
 
-namespace Samoon\App\Exceptions;
+namespace App\Exceptions;
 
 use Exception;
 
